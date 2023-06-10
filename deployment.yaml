@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  agilebd2023
+  name: emranhos1
   namespace: demo
 spec:
   selector:
     matchLabels:
-      app: agilebd2023
+      app: emranhos1
   template:
     metadata:
       labels:
-        app: agilebd2023
+        app: emranhos1
     spec:
       containers:
-        - name: agilebd2023
+        - name: emranhos1
           image: emranhos2/scram-dhaka:latest
           imagePullPolicy: Always
           ports:
