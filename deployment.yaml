@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  scram-dhaka
+  name:  agilebd2023
   namespace: demo
 spec:
   selector:
