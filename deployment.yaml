@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  agilebd2023
+  name:  scram-dhaka
   namespace: demo
 spec:
   selector:
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: agilebd2023
-          image: mirajehossain/agilebd2023:latest
+          image: emranhos2/scram-dhaka:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
